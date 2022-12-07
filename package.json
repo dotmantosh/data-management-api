@@ -7,9 +7,9 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "env-cmd -f ./config/dev.env nodemon src/app.js",
-    "dev:prod": "env-cmd -f ./config/prod.env nodemon src/app.js"
+    "start": "node index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon index.js",
+    "dev:prod": "env-cmd -f ./config/prod.env nodemon index.js"
   },
   "author": "",
   "license": "ISC",

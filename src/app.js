@@ -81,5 +81,4 @@ app.delete("/api/data/:id", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT;
-app.listen(PORT, () => console.log(`server started at PORT ${PORT}`));
+module.exports = app;
